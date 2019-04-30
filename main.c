@@ -16,6 +16,11 @@ int main()
     char mChar;                      // Character 
     int m = 0;
     
+    printf("Enter text to be encrypted: \n");
+    scanf("%c", &mChar);
+    printf("Enter value for key");
+    scanf("%d", &k);
+    
     // Initiating for loop where it will read given characters
     for (i = 0; i < 27; i++)
     {
@@ -37,6 +42,10 @@ int main()
         else if (k == 0)                            // If the user inputs 0
         {
             printf("No encryption to be made.");    // Tells them instead of crashing
+        }
+        else if (k < (-25) || k > 25)
+        {
+            printf("Cannot process");
         }
     }
     for (i = 0; i < 27; i++)                
