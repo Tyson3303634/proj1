@@ -13,13 +13,13 @@ int main()
     char outGoing[25];               // When this will be printed it will be the encrypted code            
     int i = 0;                       // Counter for iterations
     int a;
-    int k = 1;                      // This int is the key to the rotation value
+    int k = 0;                      // This int is the key to the rotation value
     char mChar;                      // Character 
     int m = 0;
     
     printf("Enter text to be encrypted: \n");
     scanf("%c", &mChar);
-    printf("Enter value for key");
+    printf("Enter value for key" \n);
     scanf("%d", &k);
     
     // Initiating for loop where it will read given characters
