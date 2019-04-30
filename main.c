@@ -1,5 +1,6 @@
 // Tyson Bennett (c3303634) 
 // Assignment 1
+// Ceasar cipher (Rotation)
 
 #include<stdio.h>
 
@@ -53,6 +54,5 @@ int main()
         printf("%c", outGoing[i]);
     }
     printf("\n Finished!");
-    printf("\n Tadaaaaa!");
     return 0;
 }
